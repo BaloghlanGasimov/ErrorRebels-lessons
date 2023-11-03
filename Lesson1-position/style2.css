@@ -1,0 +1,36 @@
+.alert{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top:0;
+    left: 10%;
+
+    /* opacity: 0; */
+
+    visibility: hidden;
+    
+    z-index: -1;
+
+    /* display: none; */
+
+    /* transition-delay: 3s; */
+}
+
+.exercise{
+    border: 1px solid red;
+    /* width: 300px; */
+    display: inline-block;
+    
+    position: relative;
+}
+.exercise:hover .alert{
+    transition: 1s;
+    
+    z-index: 1;
+    left: 140%;
+    visibility: visible;
+    
+    /* opacity: 1; */
+    /* display: block; */
+}
