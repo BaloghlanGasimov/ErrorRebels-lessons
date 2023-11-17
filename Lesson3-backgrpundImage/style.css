@@ -1,0 +1,57 @@
+:root{
+    --goyReng:blue;
+    --qirmiziReng:pink;
+
+    --olcu:20px;
+
+}
+
+h2{
+    /* color: var(--goyReng); */
+    color: var(--qirmiziReng);
+    font-size: var(--olcu14);
+}
+
+h3{
+    color: var(--qirmiziReng);
+}
+
+h4{
+    color: pink;
+}
+
+.f18{
+    font-size: 18px;
+}
+
+.width-80{
+    width: 80%;
+}
+
+
+.exercise{
+    width: 250px;
+    height: 160px;
+    border: 2px solid red;
+    background-repeat: no-repeat;
+
+    background-size: 100%;
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSth3MWZU2BB7e-4-DJ93clAmOppCpVfaSvtg&usqp=CAU");
+    background-blend-mode:normal;
+
+    background-color: blue;
+
+    transition: 0.4s;
+}
+/* .exercise .mycolor{
+    width: 250px;
+    height: 160px;
+    background-color: rgb(50, 50, 243,0.5);
+} */
+
+.exercise:hover{
+    
+    background-size: 120%;
+    
+}
