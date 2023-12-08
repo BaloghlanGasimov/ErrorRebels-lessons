@@ -41,7 +41,7 @@
 
 
 
-
+// ************************************************************************************************************************
 
 
 
@@ -49,37 +49,37 @@
 
 
             
-const arr = [1,2,3,4,5,3,7,2];
+// const arr = [1,2,3,4,5,3,7,2];
 
-const obj = {
-    az:["ana sehife","elaqe"],
-    en:{
-        dil:"ingilis"
-    }
-}
+// const obj = {
+//     az:["ana sehife","elaqe"],
+//     en:{
+//         dil:"ingilis"
+//     }
+// }
 
-console.log(obj.en.dil);
+// console.log(obj.en.dil);
 
-const arr2 =[
-    {
-        title:"Samsung",
-        weight:"100gr"
-    },
-    {
-        title:"Xiaomi",
-        weight:"120gr"
-    }
-]
+// const arr2 =[
+//     {
+//         title:"Samsung",
+//         weight:"100gr"
+//     },
+//     {
+//         title:"Xiaomi",
+//         weight:"120gr"
+//     }
+// ]
 
-console.log(arr2[0].weight);
+// console.log(arr2[0].weight);
 
-console.log(arr);
+// console.log(arr);
 
 
 
-for(let i=arr.length;i>1;i--){
-    console.log(arr[i]+ " ");
-}
+// for(let i=arr.length;i>1;i--){
+//     console.log(arr[i]+ " ");
+// }
 
 //Ayla 1 3 5
 //Ramazan 1 3 5
@@ -91,3 +91,31 @@ for(let i=arr.length;i>1;i--){
 //Ramazan 5 4 3 2
 //Hecer 5 4 3 2
 //Naile 5 4 3 2
+
+
+
+
+
+// ************************************************************************************************************************
+
+
+
+// Find max element of array
+
+
+// const arr = [12,7,2,9,3,5];
+
+const arr = [-2,-3,-1,-6,0];
+
+
+var max = arr[0];
+
+for(let i=0;i<arr.length;i++){
+
+    if(arr[i]>max){
+        max=arr[i];
+    }
+
+}
+
+console.log("Max element:"+max);
