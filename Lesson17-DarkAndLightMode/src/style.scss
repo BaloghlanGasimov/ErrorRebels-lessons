@@ -1,0 +1,20 @@
+.dark{
+    background-color: black !important;
+    // background-color: blue !important;
+
+    .shop{
+        .cart{
+            background-color: yellow;
+        }
+    }
+}
+
+.light{
+    background-color: pink !important;
+    .shop{
+        .cart{
+            background-color:blue;
+        }
+    }
+
+}

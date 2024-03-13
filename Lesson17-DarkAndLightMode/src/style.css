@@ -1,0 +1,13 @@
+.dark {
+  background-color: black !important;
+}
+.dark .shop .cart {
+  background-color: yellow;
+}
+
+.light {
+  background-color: pink !important;
+}
+.light .shop .cart {
+  background-color: blue;
+}/*# sourceMappingURL=style.css.map */
